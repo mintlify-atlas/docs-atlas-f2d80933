@@ -1,0 +1,90 @@
+{
+  "projectType": "general",
+  "projectName": "Next.js Noob Playground",
+  "projectDescription": "A collection of 7 progressive Next.js mini apps designed for beginners to learn by building, part of the Zero to SaaS course.",
+  "theme": "almond",
+  "primaryColor": "#0070f3",
+  "lightColor": "#3b82f6",
+  "darkColor": "#1e3a8a",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "prerequisites",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Mini Apps",
+            "pages": [
+              "apps/01-hello-saas",
+              "apps/02-pages-routing",
+              "apps/03-tailwind-components",
+              "apps/04-auth-database",
+              "apps/05-stripe-payments",
+              "apps/06-deployment",
+              "apps/07-full-saas"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/nextjs-basics",
+              "concepts/routing",
+              "concepts/components",
+              "concepts/authentication",
+              "concepts/payments"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/setup-environment",
+              "guides/styling-with-tailwind",
+              "guides/database-setup",
+              "guides/stripe-integration",
+              "guides/deployment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Learning",
+            "pages": [
+              "resources/learning-path",
+              "resources/best-practices",
+              "resources/troubleshooting",
+              "resources/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "7 progressive mini apps from basic to full SaaS",
+    "File-based routing and Next.js App Router",
+    "Tailwind CSS and DaisyUI component styling",
+    "NextAuth.js authentication with MongoDB",
+    "Stripe payment integration",
+    "Vercel deployment configuration",
+    "Learn-by-doing approach for beginners"
+  ],
+  "publicApiSurface": [
+    "01-hello-saas - Basic Next.js page with SaaS mindset",
+    "02-pages-routing - Multi-page navigation (Home, Pricing, About)",
+    "03-tailwind-components - Reusable components with Tailwind & DaisyUI",
+    "04-auth-database - NextAuth.js + MongoDB authentication",
+    "05-stripe-payments - Stripe checkout and webhooks",
+    "06-deployment - Vercel deployment configuration",
+    "07-full-saas - Complete SaaS application"
+  ]
+}
